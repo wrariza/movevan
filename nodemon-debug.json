@@ -1,0 +1,6 @@
+{
+  "watch": ["src/server/api-module"],
+  "ext": "ts",
+  "ignore": ["src/server/api-module/**/*.spec.ts"],
+  "exec": "node --inspect-brk -r ts-node/register src/server/api-module/main.ts"
+}
